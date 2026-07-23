@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<robot name="raphael_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- 1 material + inertia -->
+    <xacro:include filename="$(find raphael_robot_description)/urdf/common/materials_inertia.xacro"/>
+
+    <!-- 2 params -->
+    <xacro:include filename="$(find raphael_robot_description)/urdf/common/robot_params.xacro"/>
+
+    <!-- 3 links -->
+    <xacro:include filename="$(find raphael_robot_description)/urdf/macros/robot_links.xacro"/>
+
+    <!-- 4 joints -->
+    <xacro:include filename="$(find raphael_robot_description)/urdf/macros/robot_joints.xacro"/>
+
+
+</robot>

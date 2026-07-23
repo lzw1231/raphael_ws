@@ -1,0 +1,69 @@
+# ===================== ROS2 colcon 构建产物 =====================
+build/
+install/
+log/
+local_setup*
+setup*
+*.sh
+*.bat
+*.ps1
+colcon_build*.log
+colcon_cd_cache
+test_results/
+coverage/
+
+# ===================== CMake 编译中间文件 =====================
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.o
+*.a
+*.so
+*.out
+*.gcov
+*.gcda
+*.gcno
+
+# ===================== CLion IDE =====================
+.idea/
+cmake-build-*/
+*.iml
+*.ipr
+*.iws
+
+# ===================== VSCode IDE =====================
+
+.vscode/
+*.code-workspace
+.vscode/.cache
+.vscode/extensions.json.bak
+.vscode/ipch/
+.vscode/compile_commands.json
+
+# ===================== Python 缓存与虚拟环境 =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+.egg-info/
+dist/
+.env
+.env.local
+
+# ===================== 系统与临时文件 =====================
+
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+.DS_Store
+Thumbs.db
+
+*local.yaml
+launch_local.py
+config.secret.yaml
