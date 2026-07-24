@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<robot name="raphael_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- 1 params -->
+    <xacro:include filename="$(find raphael_robot_description)/urdf/common/snake/snake_params.xacro"/>
+
+    <!-- 2 links -->
+    <xacro:include filename="$(find raphael_robot_description)/urdf/common/snake/snake_links.xacro"/>
+
+    <!-- 3 joints -->
+    <xacro:include filename="$(find raphael_robot_description)/urdf/models/snake/snake_joints.xacro"/>
+
+    <!-- 4 调用宏生成3条snake -->
+    <xacro:get_snake_links prefix="s1"/>
+    <xacro:get_snake_links prefix="s2"/>
+    <xacro:get_snake_links prefix="s3"/>
+
+    <xacro:get_snake_joints prefix="s1"/>
+    <xacro:get_snake_joints prefix="s2"/>
+    <xacro:get_snake_joints prefix="s3"/>
+
+    <!-- 5 生成 snake_base_footprint 固定基座 -->
+    <link name="snake_base_footprint"/>
+
+    <joint name="snake_base_s1_link00" type="fixed">
+        <parent link="snake_base_footprint"/>
+        <child link="s1_link00"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <joint name="snake_base_s2_link00" type="fixed">
+        <parent link="snake_base_footprint"/>
+        <child link="s2_link00"/>
+        <origin xyz="0 0.05 0" rpy="0 0 0"/>
+    </joint>
+
+    <joint name="snake_base_s3_link00" type="fixed">
+        <parent link="snake_base_footprint"/>
+        <child link="s3_link00"/>
+        <origin xyz="0 -0.05 0" rpy="0 0 0"/>
+    </joint>
+
+
+</robot>

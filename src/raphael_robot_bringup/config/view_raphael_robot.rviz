@@ -10,6 +10,7 @@ Panels:
         - /RobotModel1
         - /RobotModel1/Description Topic1
         - /TF1
+        - /TF1/Frames1
       Splitter Ratio: 0.5
     Tree Height: 1055
   - Class: rviz_common/Selection
@@ -73,76 +74,220 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        link00:
+        s1_link00:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link01:
+        s1_link01:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link02:
+        s1_link02:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link03:
+        s1_link03:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link04:
+        s1_link04:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link05:
+        s1_link05:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link06:
+        s1_link06:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link07:
+        s1_link07:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link08:
+        s1_link08:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link09:
+        s1_link09:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link09b:
+        s1_link09b:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link10:
+        s1_link10:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link11:
+        s1_link11:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        link12:
+        s1_link12:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
+        s2_link00:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s2_link01:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s2_link02:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s2_link03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s2_link04:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s2_link05:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s2_link06:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s2_link07:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s2_link08:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s2_link09:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s2_link09b:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s2_link10:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s2_link11:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s2_link12:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s3_link00:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s3_link01:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s3_link02:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s3_link03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s3_link04:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s3_link05:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s3_link06:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s3_link07:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s3_link08:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s3_link09:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s3_link09b:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s3_link10:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s3_link11:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        s3_link12:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        snake_base_footprint:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
       Mass Properties:
         Inertia: false
         Mass: false
@@ -160,57 +305,148 @@ Visualization Manager:
         All Enabled: true
         base_footprint:
           Value: true
-        link00:
+        s1_link00:
           Value: true
-        link01:
+        s1_link01:
           Value: true
-        link02:
+        s1_link02:
           Value: true
-        link03:
+        s1_link03:
           Value: true
-        link04:
+        s1_link04:
           Value: true
-        link05:
+        s1_link05:
           Value: true
-        link06:
+        s1_link06:
           Value: true
-        link07:
+        s1_link07:
           Value: true
-        link08:
+        s1_link08:
           Value: true
-        link09:
+        s1_link09:
           Value: true
-        link09b:
+        s1_link09b:
           Value: true
-        link10:
+        s1_link10:
           Value: true
-        link11:
+        s1_link11:
           Value: true
-        link12:
+        s1_link12:
           Value: true
-      Marker Scale: 0.05000000074505806
+        s2_link00:
+          Value: true
+        s2_link01:
+          Value: true
+        s2_link02:
+          Value: true
+        s2_link03:
+          Value: true
+        s2_link04:
+          Value: true
+        s2_link05:
+          Value: true
+        s2_link06:
+          Value: true
+        s2_link07:
+          Value: true
+        s2_link08:
+          Value: true
+        s2_link09:
+          Value: true
+        s2_link09b:
+          Value: true
+        s2_link10:
+          Value: true
+        s2_link11:
+          Value: true
+        s2_link12:
+          Value: true
+        s3_link00:
+          Value: true
+        s3_link01:
+          Value: true
+        s3_link02:
+          Value: true
+        s3_link03:
+          Value: true
+        s3_link04:
+          Value: true
+        s3_link05:
+          Value: true
+        s3_link06:
+          Value: true
+        s3_link07:
+          Value: true
+        s3_link08:
+          Value: true
+        s3_link09:
+          Value: true
+        s3_link09b:
+          Value: true
+        s3_link10:
+          Value: true
+        s3_link11:
+          Value: true
+        s3_link12:
+          Value: true
+        snake_base_footprint:
+          Value: true
+      Marker Scale: 0.029999999329447746
       Name: TF
       Show Arrows: true
       Show Axes: true
       Show Names: true
       Tree:
         base_footprint:
-          link00:
-            link01:
-              link02:
-                link03:
-                  link04:
-                    link05:
-                      link06:
-                        link07:
-                          link08:
-                            link09:
-                              link09b:
-                                link10:
-                                  link11:
-                                    {}
-                                  link12:
-                                    {}
+          snake_base_footprint:
+            s1_link00:
+              s1_link01:
+                s1_link02:
+                  s1_link03:
+                    s1_link04:
+                      s1_link05:
+                        s1_link06:
+                          s1_link07:
+                            s1_link08:
+                              s1_link09:
+                                s1_link09b:
+                                  s1_link10:
+                                    s1_link11:
+                                      {}
+                                    s1_link12:
+                                      {}
+            s2_link00:
+              s2_link01:
+                s2_link02:
+                  s2_link03:
+                    s2_link04:
+                      s2_link05:
+                        s2_link06:
+                          s2_link07:
+                            s2_link08:
+                              s2_link09:
+                                s2_link09b:
+                                  s2_link10:
+                                    s2_link11:
+                                      {}
+                                    s2_link12:
+                                      {}
+            s3_link00:
+              s3_link01:
+                s3_link02:
+                  s3_link03:
+                    s3_link04:
+                      s3_link05:
+                        s3_link06:
+                          s3_link07:
+                            s3_link08:
+                              s3_link09:
+                                s3_link09b:
+                                  s3_link10:
+                                    s3_link11:
+                                      {}
+                                    s3_link12:
+                                      {}
       Update Interval: 0
       Value: true
   Enabled: true
@@ -259,25 +495,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 0.532135009765625
+      Distance: 0.5202275514602661
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.06183734908699989
-        Y: -0.05587110295891762
-        Z: 0.06255068629980087
+        X: 0.037949882447719574
+        Y: -0.08914890140295029
+        Z: -0.10590478777885437
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.24479806423187256
+      Pitch: 0.554797887802124
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.6054010391235352
+      Yaw: 1.0354009866714478
     Saved: ~
 Window Geometry:
   Displays:

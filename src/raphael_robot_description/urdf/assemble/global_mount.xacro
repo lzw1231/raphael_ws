@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<robot name="global_mount" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- 导入snake部件 -->
+    <xacro:include filename="$(find raphael_robot_description)/urdf/models/snake/snake_robot.urdf.xacro"/>
+
+    <!-- raphael_robot 总装-->
+    <link name="base_footprint"/>
+
+    <joint name="base_snake_joints" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="snake_base_footprint"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+
+</robot>
