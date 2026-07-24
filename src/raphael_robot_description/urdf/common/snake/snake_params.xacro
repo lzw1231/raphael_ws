@@ -2,8 +2,8 @@
 <!-- 蛇臂14节连杆参数：质量、半径、长度分块分组存放 -->
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-    <xacro:property name="mesh_scale" value="0.001 0.001 0.001"/>
 
+    <xacro:property name="mesh_scale" value="0.001 0.001 0.001"/>
     <xacro:property name="stl_path" value="package://raphael_robot_description/meshes/snake"/>
 
     <!-- ====================== 各连杆质量 m(kg) ====================== -->

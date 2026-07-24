@@ -2,145 +2,144 @@
 <!-- 全局材质库  -->
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-    <xacro:property name="alpha_val" value="1"/>
+    <xacro:property name="snake_value" value="1"/>
 
     <!-- ================================================== -->
-    <!-- S1 蓝青冷渐变 -->
+    <!-- S1 色系：红 → 橙 → 黄（色相 0° → 60°）饱和0.85  -->
     <!-- ================================================== -->
-
     <material name="s1_color_0">
-        <color rgba="0.05 0.12 0.50 ${alpha_val}"/>
+        <color rgba="0.850 0.150 0.150 ${snake_value}"/>
     </material>
     <material name="s1_color_1">
-        <color rgba="0.02 0.28 0.65 ${alpha_val}"/>
+        <color rgba="0.869 0.262 0.100 ${snake_value}"/>
     </material>
     <material name="s1_color_2">
-        <color rgba="0.00 0.42 0.72 ${alpha_val}"/>
+        <color rgba="0.878 0.373 0.063 ${snake_value}"/>
     </material>
     <material name="s1_color_3">
-        <color rgba="0.00 0.54 0.75 ${alpha_val}"/>
+        <color rgba="0.876 0.483 0.040 ${snake_value}"/>
     </material>
     <material name="s1_color_4">
-        <color rgba="0.00 0.62 0.70 ${alpha_val}"/>
+        <color rgba="0.863 0.591 0.032 ${snake_value}"/>
     </material>
     <material name="s1_color_5">
-        <color rgba="0.00 0.68 0.58 ${alpha_val}"/>
+        <color rgba="0.840 0.696 0.040 ${snake_value}"/>
     </material>
     <material name="s1_color_6">
-        <color rgba="0.05 0.70 0.42 ${alpha_val}"/>
+        <color rgba="0.807 0.796 0.064 ${snake_value}"/>
     </material>
     <material name="s1_color_7">
-        <color rgba="0.15 0.69 0.28 ${alpha_val}"/>
+        <color rgba="0.765 0.887 0.104 ${snake_value}"/>
     </material>
     <material name="s1_color_8">
-        <color rgba="0.28 0.65 0.14 ${alpha_val}"/>
+        <color rgba="0.714 0.958 0.160 ${snake_value}"/>
     </material>
     <material name="s1_color_9">
-        <color rgba="0.40 0.59 0.08 ${alpha_val}"/>
+        <color rgba="0.655 0.994 0.231 ${snake_value}"/>
     </material>
     <material name="s1_color_9b">
-        <color rgba="0.52 0.51 0.06 ${alpha_val}"/>
+        <color rgba="0.592 0.974 0.315 ${snake_value}"/>
     </material>
     <material name="s1_color_10">
-        <color rgba="0.62 0.42 0.07 ${alpha_val}"/>
+        <color rgba="0.529 0.896 0.410 ${snake_value}"/>
     </material>
     <material name="s1_color_11">
-        <color rgba="0.70 0.30 0.10 ${alpha_val}"/>
+        <color rgba="0.470 0.770 0.516 ${snake_value}"/>
     </material>
     <material name="s1_color_12">
-        <color rgba="0.75 0.18 0.15 ${alpha_val}"/>
+        <color rgba="0.420 0.608 0.628 ${snake_value}"/>
     </material>
 
     <!-- ================================================== -->
-    <!-- S2 红橙暖棕系，无冷绿 -->
+    <!-- S2 色系：青 → 蓝 → 紫（色相 180° → 240°）饱和0.85  -->
     <!-- ================================================== -->
     <material name="s2_color_0">
-        <color rgba="0.78 0.05 0.05 ${alpha_val}"/>
+        <color rgba="0.150 0.700 0.700 ${snake_value}"/>
     </material>
     <material name="s2_color_1">
-        <color rgba="0.82 0.12 0.04 ${alpha_val}"/>
+        <color rgba="0.123 0.633 0.760 ${snake_value}"/>
     </material>
     <material name="s2_color_2">
-        <color rgba="0.85 0.22 0.03 ${alpha_val}"/>
+        <color rgba="0.121 0.544 0.816 ${snake_value}"/>
     </material>
     <material name="s2_color_3">
-        <color rgba="0.86 0.32 0.04 ${alpha_val}"/>
+        <color rgba="0.144 0.446 0.861 ${snake_value}"/>
     </material>
     <material name="s2_color_4">
-        <color rgba="0.87 0.42 0.06 ${alpha_val}"/>
+        <color rgba="0.190 0.349 0.887 ${snake_value}"/>
     </material>
     <material name="s2_color_5">
-        <color rgba="0.86 0.52 0.10 ${alpha_val}"/>
+        <color rgba="0.256 0.261 0.888 ${snake_value}"/>
     </material>
     <material name="s2_color_6">
-        <color rgba="0.84 0.60 0.16 ${alpha_val}"/>
+        <color rgba="0.338 0.189 0.859 ${snake_value}"/>
     </material>
     <material name="s2_color_7">
-        <color rgba="0.80 0.66 0.25 ${alpha_val}"/>
+        <color rgba="0.429 0.136 0.803 ${snake_value}"/>
     </material>
     <material name="s2_color_8">
-        <color rgba="0.74 0.68 0.35 ${alpha_val}"/>
+        <color rgba="0.524 0.101 0.723 ${snake_value}"/>
     </material>
     <material name="s2_color_9">
-        <color rgba="0.66 0.67 0.44 ${alpha_val}"/>
+        <color rgba="0.615 0.083 0.628 ${snake_value}"/>
     </material>
     <material name="s2_color_9b">
-        <color rgba="0.58 0.63 0.50 ${alpha_val}"/>
+        <color rgba="0.694 0.081 0.526 ${snake_value}"/>
     </material>
     <material name="s2_color_10">
-        <color rgba="0.49 0.58 0.54 ${alpha_val}"/>
+        <color rgba="0.754 0.096 0.423 ${snake_value}"/>
     </material>
     <material name="s2_color_11">
-        <color rgba="0.40 0.51 0.55 ${alpha_val}"/>
+        <color rgba="0.792 0.126 0.326 ${snake_value}"/>
     </material>
     <material name="s2_color_12">
-        <color rgba="0.31 0.44 0.53 ${alpha_val}"/>
+        <color rgba="0.806 0.170 0.241 ${snake_value}"/>
     </material>
 
     <!-- ================================================== -->
-    <!-- S3 紫粉灰蓝系，全程不含绿色通道高值 -->
+    <!-- S3 色系：绿 → 青（色相 120° → 180°）饱和0.85  -->
     <!-- ================================================== -->
     <material name="s3_color_0">
-        <color rgba="0.22 0.04 0.42 ${alpha_val}"/>
+        <color rgba="0.150 0.700 0.150 ${snake_value}"/>
     </material>
     <material name="s3_color_1">
-        <color rgba="0.32 0.06 0.52 ${alpha_val}"/>
+        <color rgba="0.117 0.722 0.236 ${snake_value}"/>
     </material>
     <material name="s3_color_2">
-        <color rgba="0.42 0.10 0.60 ${alpha_val}"/>
+        <color rgba="0.100 0.726 0.333 ${snake_value}"/>
     </material>
     <material name="s3_color_3">
-        <color rgba="0.50 0.14 0.66 ${alpha_val}"/>
+        <color rgba="0.099 0.714 0.438 ${snake_value}"/>
     </material>
     <material name="s3_color_4">
-        <color rgba="0.58 0.20 0.70 ${alpha_val}"/>
+        <color rgba="0.115 0.688 0.547 ${snake_value}"/>
     </material>
     <material name="s3_color_5">
-        <color rgba="0.64 0.28 0.72 ${alpha_val}"/>
+        <color rgba="0.148 0.651 0.655 ${snake_value}"/>
     </material>
     <material name="s3_color_6">
-        <color rgba="0.68 0.36 0.72 ${alpha_val}"/>
+        <color rgba="0.196 0.604 0.758 ${snake_value}"/>
     </material>
     <material name="s3_color_7">
-        <color rgba="0.70 0.44 0.70 ${alpha_val}"/>
+        <color rgba="0.259 0.550 0.846 ${snake_value}"/>
     </material>
     <material name="s3_color_8">
-        <color rgba="0.69 0.50 0.66 ${alpha_val}"/>
+        <color rgba="0.333 0.491 0.912 ${snake_value}"/>
     </material>
     <material name="s3_color_9">
-        <color rgba="0.66 0.55 0.61 ${alpha_val}"/>
+        <color rgba="0.416 0.430 0.946 ${snake_value}"/>
     </material>
     <material name="s3_color_9b">
-        <color rgba="0.62 0.58 0.56 ${alpha_val}"/>
+        <color rgba="0.503 0.369 0.940 ${snake_value}"/>
     </material>
     <material name="s3_color_10">
-        <color rgba="0.56 0.59 0.52 ${alpha_val}"/>
+        <color rgba="0.588 0.313 0.893 ${snake_value}"/>
     </material>
     <material name="s3_color_11">
-        <color rgba="0.49 0.57 0.49 ${alpha_val}"/>
+        <color rgba="0.662 0.264 0.810 ${snake_value}"/>
     </material>
     <material name="s3_color_12">
-        <color rgba="0.41 0.53 0.47 ${alpha_val}"/>
+        <color rgba="0.720 0.226 0.703 ${snake_value}"/>
     </material>
 
 
